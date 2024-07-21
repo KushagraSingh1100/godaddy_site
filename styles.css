@@ -116,6 +116,15 @@
 }
 
 @media screen and (max-width: 700px) {
+  .logo{
+    width: 20vw;
+  }
+
+  .navbar{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
 
   .links{
     display: none;
@@ -222,7 +231,7 @@
     padding-bottom: 0;
   }
   .contactheading{
-    font-size: 8vw;
+    font-size: 7vw;
   }
   .contactcard{
     margin-bottom: 0;
@@ -232,12 +241,26 @@
     gap: 3vw;
   }
   .heading4{
-    font-size: 6vw;
+    font-size: 5vw;
   }
   .font6{
-    font-size: 4vw;
+    font-size: 3vw;
   }
   .linkedin{
     width: 5vw;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin: 4vw;
+    width: 100vw;
+    margin-bottom: 0;
+  }
+  .copyright{
+    text-align: center;
+    width: 100vw;
   }
 }
